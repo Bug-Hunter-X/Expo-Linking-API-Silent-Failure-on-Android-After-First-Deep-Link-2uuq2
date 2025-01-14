@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links on Android.  After successfully opening a deep link, subsequent attempts to open the same or different deep links fail silently.  The `Linking.addEventListener` callback never fires, and there are no error messages in the console.
